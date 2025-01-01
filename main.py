@@ -6,6 +6,6 @@ def sum(a,b):
 
 print("Hello world!")
 
-greet("John")
-greet("Jane")
-greet("Mary")
+names = ["John", "Jane", "Mary"]
+for name in names:
+    greet(name)
