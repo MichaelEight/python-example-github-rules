@@ -10,6 +10,7 @@ names = ["John", "Jane", "Mary"]
 for name in names:
     greet(name)
 
-print(sum(1,2))
-print(sum(3,4))
-print(sum(sum(1,2),sum(3,4)))
+sums = [(1, 2), (3, 4), (sum(1, 2), sum(3, 4))]
+
+for a, b in sums:
+    print(sum(a, b))
