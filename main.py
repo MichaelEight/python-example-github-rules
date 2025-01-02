@@ -4,6 +4,9 @@ def greet(name):
 def sum(a,b):
     return a+b
 
+def difference(a,b):
+    return a-b
+
 print("Hello world!")
 
 names = ["John", "Jane", "Mary"]
@@ -14,3 +17,5 @@ sums = [(1, 2), (3, 4), (sum(1, 2), sum(3, 4))]
 
 for a, b in sums:
     print(sum(a, b))
+
+print(difference(10, 5))
